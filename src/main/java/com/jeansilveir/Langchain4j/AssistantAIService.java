@@ -23,5 +23,5 @@ public interface AssistantAIService {
             - Se faltar algum dado para o cálclo (ex: dias), peça somente o que faltar.
             - Se a pergunta for sobre assuntos fora de locação corporativa, responda que não pode ajudar.
             """)
-    Result<String> handleRequest(@UserMessage String userMessage);
+    Result<String> handleRequest(@UserMessage String userMessage); // momored id para melhor a questão de contexto
 }
